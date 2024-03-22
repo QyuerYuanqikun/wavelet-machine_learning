@@ -21,6 +21,6 @@ def resize_images_in_folder(source_folder, dest_folder, size=(512, 512)):
             save_path = os.path.join(dest_folder, file_name)
             resized_img.save(save_path)
 
-source_folder = 'E:\wavelet\Image\Flickr1024 Dataset\Validation'
-dest_folder = 'E:\wavelet\Image\Flickr1024 Dataset\Validation_same_size'
-resize_images_in_folder(source_folder, dest_folder, size=(128, 128))
+source_folder = 'E:\wavelet\Image\Flickr1024 Dataset\\Test'
+dest_folder = 'E:\wavelet\Image\Flickr1024 Dataset\\Test_same_size_512_Gauss'
+resize_images_in_folder(source_folder, dest_folder, size=(512, 512))
